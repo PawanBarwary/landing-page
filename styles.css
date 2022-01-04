@@ -30,6 +30,10 @@ ul {
   gap: 2em;
 }
 
+li:hover {
+  color: rgba(255, 255, 255, 0.733);
+}
+
 nav {
   display: flex;
   justify-content: space-around;
@@ -69,6 +73,11 @@ button:hover {
   background-color: #3881f6c9;
 }
 
+a, a:hover, a:visited, a:active {
+  color: inherit;
+  text-decoration: none;
+ }
+ 
 .content {
   flex-grow: 1;
 }
