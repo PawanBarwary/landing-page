@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  font-family: "roboto";
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.6em
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 2em;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+header, footer {
+  background-color:#1F2937;
+  color: #fff;
+  padding: 2em;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  padding: 2em;
+}
+
+p {
+  color: #EFE5EB;
+  width: 30vw;
+}
+
+button {
+  padding: .5em 1.2em;
+  border-radius: 10px;
+  background-color: #3882F6;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #3881f6c9;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.quote-section {
+  background-color: #E5E7EB;
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10vh;
+  margin-top: 0;
+}
+
+.outer-container {
+  padding: 10vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.img-container {
+  padding: 0 10vw;
+  padding-bottom: 6em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.img-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+
+.placeholder-img-2 {
+  width: 22vh;
+}
+
+.quote-section {
+  padding: 10em;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.quote {
+  padding: 1em 0em;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 100;
+  color: #1F2937;
+  text-align: center;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882F6;
+  margin: 15vh 35vh;
+  padding: 3em;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.action-text {
+  display: flex;
+  flex-direction: column;
+  gap: .5em;
+}
+
+.blue-signup {
+  border: 1px solid white;
+}
+
+.blue-signup:hover {
+  background-color: hsl(217, 89%, 64%) 
+}
+
+#placeholder-img {
+  max-width: 600px;
+}
+
+#image-headline {
+  padding: 1em;
+  font-size: 2.5em;
+}
